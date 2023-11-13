@@ -12,6 +12,7 @@ char **tokenizer(char *input_string, char *delim)
 	char **av = NULL;
 	char *token = NULL;
 	char *save_ptr = NULL;
+
 	token = _strtok_r(input_string, delim, &save_ptr);
 	while (token != NULL)
 	{
@@ -48,6 +49,7 @@ void print(char *string, int stream)
 void remove_newline(char *str)
 {
 	int i = 0;
+
 	while (str[i] != '\0')
 	{
 		if (str[i] == '\n')
@@ -66,6 +68,7 @@ void remove_newline(char *str)
 void _strcpy(char *source, char *dest)
 {
 	int i = 0;
+
 	for (; source[i] != '\0'; i++)
 		dest[i] = source[i];
 	dest[i] = '\0';
@@ -79,6 +82,7 @@ void _strcpy(char *source, char *dest)
 int _strlen(char *string)
 {
 	int len = 0;
+
 	if (string == NULL)
 		return (len);
 	for (; string[len] != '\0'; len++)
