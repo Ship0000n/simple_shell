@@ -1,6 +1,4 @@
 #include "shell.h"
-
-
 /**
  * main - the main shell code
  * @argc: number of arguments passed
@@ -11,8 +9,6 @@
  * Prints error on Failure
  * Return: 0 on success
  */
-
-
 int main(int argc __attribute__((unused)), char **argv)
 {
 	char **commands = NULL;

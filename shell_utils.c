@@ -1,36 +1,8 @@
 #include "shell.h"
 
 /**
- * shell_utils.c - Extended functions for main.c
- * Auth: Mohamed Awadelkarim
- * Ibrahim Ehab
- *
- * Description:the extended functions for main.c
- */
-
-
-/**
  * parse_command - determines the type of the command
- * Description: This function determines the type of the command.
- * @command (char*):The command to be parsed
- *
- * execute_command - This function executes a command based on its type.
- * Description: This function executes a command based on its type.
- * @tokenized_command (char**): The tokenized form of the command.
- * @command_type (int): The type of the command.
- *
- * check_path - This function checks if a command is found in the PATH.
- * Description: This function checks if a command is found in the PATH.
- * @command (char*): The command to be used.
- *
- * get_func - retrieves a function based on the command given and a mapping.
- * Description:This function retrieves a function based on the command
- * given and a mapping.
- *@command (char*): The string to check against the mapping.
- *
- * _getenv - gets the value of an environment variable.
- * Description : This function gets the value of an environment variable.
- * @name (char*) : The name of the environment variable.
+ * @command: command to be parsed
  *
  * Return: constant representing the type of the command
  * Description -
