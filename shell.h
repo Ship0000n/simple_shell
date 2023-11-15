@@ -37,6 +37,7 @@ typedef struct map
 
 function_map;
 
+/* Extern Declarations */
 extern char **environ;
 extern char *line;
 extern char **commands;
